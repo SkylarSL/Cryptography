@@ -64,7 +64,7 @@ for (ptext, ctext) in zip(plainText, cipherText):
     counter[bias] += 1
 
 print(counter)
-print(abs(counter[0]/20000))
+print(abs(counter[0]-10000)/20000)
 
 keyBias = [-1, -1]
 for key in keyText:
@@ -103,7 +103,7 @@ for key in keyText:
 
         counter[bias] += 1
     
-    bias = counter[0]/20000
+    bias = abs(counter[0]-10000)/20000
     if(bias > keyBias[1]):
         keyBias = [key, bias]
 
@@ -120,7 +120,6 @@ for key in keyText:
         subKey2 = "0000"
         subKey3 = key[4:8]
         subKey4 = "1111"
-
         subCiph1 = ctext[0:4]
         subCiph2 = ctext[4:8]
         subCiph3 = ctext[8:12]
@@ -163,7 +162,7 @@ for key in keyText:
             
         counter[bias] += 1
     
-    bias = counter[0]/20000
+    bias = abs(counter[0]-10000)/20000
     if(bias > keyBias[1]):
         keyBias = [key, bias]
 

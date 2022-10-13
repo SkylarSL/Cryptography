@@ -20,6 +20,7 @@ keyTextLines = keyText.readlines()
 deltau = "0000011000000110"
 ucount = ("", 0)
 
+keys = []
 for key in keyTextLines:
     count = 0
     for line in cipherTextLines:
@@ -41,7 +42,7 @@ for key in keyTextLines:
 
         v1 = y1Int ^ key1Int
         v2 = y2Int ^ key2Int
-        vprime1 = yprime1Int ^ key2Int
+        vprime1 = yprime1Int ^ key1Int
         vprime2 = yprime2Int ^ key2Int
 
         u1 = isBox[v1]
@@ -60,7 +61,10 @@ for key in keyTextLines:
         if(deltauTest == deltau):
             count += 1
 
-    if(count > ucount[1]):
+    keys.append(count)
+    if(count >= ucount[1]):
         ucount = (key, count)
 
 print(ucount)
+keys.sort(reverse=True)
+print(keys)

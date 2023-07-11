@@ -1,0 +1,13 @@
+{
+    "body": {
+        "subject identity": "swinnick",
+        "public key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWN76D48fhsWD6dxk6zEZFZf1yNdh\nV/TpD3hZaEtfnIxCS5SQpT4NROxjY+yRN4trKCwJc+ZvyZurl4EmTZSOJw==\n-----END PUBLIC KEY-----\n",
+        "validity start": "2021-09-01T00:00:00",
+        "validity end": "2021-12-31T23:59:59",
+        "issuer identity": "dstebila"
+    },
+    "signature": {
+        "r": 36521080401597352539824770895084344147785535398586026669970403821600862135122,
+        "s": 4910984088799254900500332614507427296696845964260118375735552038692928718223
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "body": {
+        "subject identity": "psharma",
+        "public key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQ/nfFI0iaBniEKjgwHQzoJke9zSw\noCG938/XRylwHIu2GHck0NzshNsaBvQG83MY22YfIzXqBetwDLWHbmV13w==\n-----END PUBLIC KEY-----\n",
+        "validity start": "2022-09-01T00:00:00",
+        "validity end": "2022-12-31T23:59:59",
+        "issuer identity": "dstebila"
+    },
+    "signature": {
+        "r": 63591491338202371668541353002127407191190666391280587034702828546542628145665,
+        "s": 90012804368466071828716216735790671594742035386895203856729852631467352412574
+    }
+}

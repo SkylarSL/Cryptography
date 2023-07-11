@@ -1,0 +1,8 @@
+{
+    "message": "The exam will be super easy, you don't even need to study for it.",
+    "signer identity": "swilson",
+    "signature": {
+        "r": 72850653756810035410243049946392076348238384637904432001131723099369468256730,
+        "s": 4341852386757359455058895239928857366516612131598348138441232470337133379064
+    }
+}

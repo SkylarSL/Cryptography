@@ -1,0 +1,13 @@
+{
+    "body": {
+        "subject identity": "lglabush",
+        "public key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEveePlXGG2jAFci2wRVlRFryEE30J\n7+a8k4LoCtIBRIpMytmCE19EH0HpxiTwsuGE0ffkl34Yk8hrXt20gfmGSg==\n-----END PUBLIC KEY-----\n",
+        "validity start": "2022-09-01T00:00:00",
+        "validity end": "2022-12-31T23:59:59",
+        "issuer identity": "dstebila"
+    },
+    "signature": {
+        "r": 31090377660850431210893519040395112588631078782363932935695835359993602102564,
+        "s": 68708940308774028065379702934880839973991813177727871086782729712507186277734
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "body": {
+        "subject identity": "swilson",
+        "public key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAFl+0Boon+pchA2rKzgqIPIY+xd2\ngJbvZJceYFSiSYtU0hC6XcRO4u7YHlpjMpkxQSa6W/0lE8Sy54KrhNDm7Q==\n-----END PUBLIC KEY-----\n",
+        "validity start": "2022-09-01T00:00:00",
+        "validity end": "2022-12-31T23:59:59",
+        "issuer identity": "swilson"
+    },
+    "signature": {
+        "r": 93214989267195595257948064410301298685519462458040737347862861570745118841248,
+        "s": 27019233896657758150850550035311679008031974644574410523735273722260973780849
+    }
+}

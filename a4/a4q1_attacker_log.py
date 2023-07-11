@@ -68,8 +68,29 @@ def do_decryption():
     c_1 = input["c_1"]
     c_2 = string2bytes(input["c_2"])
 
-    print(n)
-    d = mod_inverse(e, n)
+    factored_n = factorint(n)
+    factors = list(factored_n.keys())
+    phi = 1
+    for i in range(0, len(factors)):
+        phi = phi * (factors[i] - 1)
+        
+    try:
+        d = mod_inverse(e, phi)
+    except:
+        print("NO")
+
+    key = pow(c_1, d, n)
+
+    print(key)
+    key = key.to_bytes(16, byteorder='big') # why does this cause error
+    
+    cipher = Cipher(algorithms.AES(key), modes.ECB()).decryptor()
+
+    plaintext = cipher.update(c_2) + cipher.finalize()
+
+    padder = padding.PKCS7(128).unpadder() # 128 is the block size
+    plaintext = padder.update(plaintext)
+    plaintext += padder.finalize()
 
     # write the decrypted assignment to a file
     with open("assignment_out.pdf", 'wb') as fh:

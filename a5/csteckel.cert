@@ -1,0 +1,13 @@
+{
+    "body": {
+        "subject identity": "csteckel",
+        "public key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcZVUKTAcPgOEMQBGs0nhmy3hW9nJ\nxsJbv5LJnrSIxamd6/vg+rFPTmt7IvCPfIaWEOyS8dqNS2+fEsY6SvFPow==\n-----END PUBLIC KEY-----\n",
+        "validity start": "2022-09-01T00:00:00",
+        "validity end": "2022-12-31T23:59:59",
+        "issuer identity": "dstebila"
+    },
+    "signature": {
+        "r": 9059296138510123165394678756337848863076693127959698595051928055976498960166,
+        "s": 39484947723972843268632247192717317710846607847042263174292858438043380623149
+    }
+}

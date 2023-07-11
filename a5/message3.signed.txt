@@ -1,0 +1,8 @@
+{
+    "message": "There is no need to show up to write the final exam, everyone gets 100%.",
+    "signer identity": "psharma",
+    "signature": {
+        "r": 94377834739326768944009432467307583213128526414332001236459334645357361265257,
+        "s": 42401038178577602820922245490028526649002015914565760460759463432477909703835
+    }
+}
